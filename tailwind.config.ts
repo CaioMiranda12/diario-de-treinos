@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       height: {
-        homeMain: 'calc(100vh - 4rem)'
+        homeMain: 'calc(100vh - 5rem)'
       }
     },
   },
