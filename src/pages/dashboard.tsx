@@ -101,7 +101,7 @@ export default function Dashboard({ user }: HomeProps) {
                 <title>Painel de Treinos</title>
             </Head>
 
-            <main className="pb-10">
+            <main className="">
                 <section className="bg-black flex items-center justify-center">
                     <div className="w-full pb-7 mt-12 max-w-screen-lg px-5">
                         <h1 className="mb-2 text-white text-3xl font-bold">Qual seu treino?</h1>
@@ -124,12 +124,12 @@ export default function Dashboard({ user }: HomeProps) {
                                     className="text-white ml-2">Deixar treino público</label>
                             </div>
 
-                            <button type="submit" className="w-full bg-blue-500 py-3 rounded-md text-white font-bold text-lg">Registrar</button>
+                            <button type="submit" className="w-full bg-purple-500 py-3 rounded-md text-white font-bold text-lg hover:opacity-80 active:opacity-60">Registrar</button>
                         </form>
                     </div>
                 </section>
 
-                <section className="flex flex-col items-center justify-center">
+                <section className="flex flex-col items-center justify-center pb-12">
                     <div className="max-w-screen-lg w-full flex flex-col items-center">
                         <h1 className="text-3xl font-bold my-8">Meus Treinos</h1>
 
@@ -140,9 +140,9 @@ export default function Dashboard({ user }: HomeProps) {
                                         {
                                             item.public && (
                                                 <div className="flex items-center gap-3 mb-3">
-                                                    <span className="bg-blue-500 px-3 py-0.5 rounded-md text-white text-sm">PÚBLICA</span>
+                                                    <span className="bg-purple-500 px-3 py-0.5 rounded-md text-white text-sm">PÚBLICO</span>
                                                     <button onClick={() => handleShare(item.id)}>
-                                                        <FaShare size={20} color="#3b82f6" />
+                                                        <FaShare size={20} color="#7e22ce" />
                                                     </button>
                                                 </div>
                                             )
@@ -159,7 +159,7 @@ export default function Dashboard({ user }: HomeProps) {
                                                 )
                                             }
                                             <button onClick={() => handleDeleteWorkout(item.id)}>
-                                                <FaTrash size={20} color="red" />
+                                                <FaTrash size={20} color="#9333ea" />
                                             </button>
                                         </div>
                                     </article>

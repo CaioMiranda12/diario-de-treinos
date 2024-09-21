@@ -65,9 +65,9 @@ export default function GeralDashboards() {
                                 {
                                     item.public && (
                                         <div className="flex items-center gap-3 mb-3">
-                                            <span className="bg-blue-500 px-3 py-0.5 rounded-md text-white text-sm">PÚBLICA</span>
+                                            <span className="bg-purple-500 px-3 py-0.5 rounded-md text-white text-sm">PÚBLICO</span>
                                             <button onClick={() => handleShare(item.id)}>
-                                                <FaShare size={20} color="#3b82f6" />
+                                                <FaShare size={20} color="#7e22ce" />
                                             </button>
                                         </div>
                                     )

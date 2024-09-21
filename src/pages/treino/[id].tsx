@@ -98,7 +98,7 @@ export default function Treino({ item, allComments }: WorkoutProps) {
                         value={input}
                     ></Textarea>
                     <button
-                        className="bg-blue-500 w-full py-4 rounded-md text-white text-xl my-3 disabled:opacity-50 disabled:cursor-not-allowed"
+                        className="bg-purple-500 w-full py-4 rounded-md text-white text-xl my-3 disabled:opacity-50 disabled:cursor-not-allowed hover:opacity-80 active:opacity-60"
                         type="submit"
                         disabled={!session?.user}
                     >Enviar comentário</button>
@@ -122,7 +122,7 @@ export default function Treino({ item, allComments }: WorkoutProps) {
                                 {
                                     item.user === session?.user?.email && (
                                         <button onClick={() => handleDeleteComment(item.id)}>
-                                            <FaTrash size={18} color="red" />
+                                            <FaTrash size={18} color="#9333ea" />
                                         </button>
                                     )
                                 }

@@ -11,7 +11,7 @@ export function Header() {
             <section className="flex items-center justify-between max-w-screen-lg w-full px-5">
                 <nav className='flex items-center'>
                     <Link href='/'>
-                        <h1 className="text-white text-3xl font-bold">Treinos<span className="text-red-600">+</span></h1>
+                        <h1 className="text-white text-3xl font-bold">Diário de <span className="text-purple-600">Treinos</span></h1>
                     </Link>
 
                     {
@@ -45,7 +45,7 @@ export function Header() {
                         <Menu as="div" className="relative inline-block text-left sm:hidden">
                             <div>
                                 <MenuButton className="inline-flex w-full justify-center gap-x-1.5 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm">
-                                    <TfiMenu color='red' size={18} />
+                                    <TfiMenu color='#9333ea' size={18} />
                                 </MenuButton>
                             </div>
 
