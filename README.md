@@ -11,3 +11,16 @@
   <li>Tailwind CSS</li>
   <li>Firebase</li>
 </ul>
+
+<h3>Home</h3>
+<img alt="imagem da home" src="./src/assets/img1.png" />
+
+
+
+<h3>Painél</h3>
+<img alt="imagem do painel" src="./src/assets/img2.jfif" />
+
+
+
+<h3>Treinos públicos</h3>
+<img alt="imagem da home" src="./src/assets/img3.png" />
