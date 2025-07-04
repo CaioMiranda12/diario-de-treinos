@@ -30,7 +30,7 @@ O Diário de Treinos foi desenvolvido para ajudar na organização de treinos, o
 
 ## 🌍 Acesse o Projeto
 
-A versão ao vivo do Space Games está disponível em: <a href="https://treino-plus.vercel.app/" target="_blank">Deploy</a>
+A versão ao vivo do Blog de treinos está disponível em: <a href="https://treino-plus.vercel.app/" target="_blank">Deploy</a>
 
 Explore os jogos mais populares diretamente na plataforma!
 
