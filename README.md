@@ -32,8 +32,6 @@ O Diário de Treinos foi desenvolvido para ajudar na organização de treinos, o
 
 A versão ao vivo do Blog de treinos está disponível em: <a href="https://treino-plus.vercel.app/" target="_blank">Deploy</a>
 
-Explore os jogos mais populares diretamente na plataforma!
-
 <br>
 
 ## ⚡ Imagens
